@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<string> words = new List<string> { "banana", "apple", "orange", "grape", "kiwi" };
+
+        // Сортировка списка строк
+        words.Sort();
+
+        // Вывод отсортированных слов
+        foreach (string word in words)
+        {
+            Console.Write(word + " ");
+        }
+        // Output: apple banana grape kiwi orange
+    }
+}
